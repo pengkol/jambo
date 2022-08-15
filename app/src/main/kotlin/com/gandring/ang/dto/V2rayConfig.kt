@@ -1,4 +1,4 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
 import android.text.TextUtils
 import com.google.gson.GsonBuilder

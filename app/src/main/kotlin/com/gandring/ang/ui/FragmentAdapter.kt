@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

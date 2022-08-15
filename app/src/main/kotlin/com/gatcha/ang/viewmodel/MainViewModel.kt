@@ -1,4 +1,4 @@
-package com.gatcha.ang.viewmodel
+package com.gandring.ang.viewmodel
 
 import android.app.Application
 import android.content.*
@@ -11,15 +11,15 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AngApplication
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.DialogConfigFilterBinding
-import com.gatcha.ang.dto.*
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.*
-import com.gatcha.ang.util.MmkvManager.KEY_ANG_CONFIGS
+import com.gandring.ang.AngApplication
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.R
+import com.gandring.ang.databinding.DialogConfigFilterBinding
+import com.gandring.ang.dto.*
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.*
+import com.gandring.ang.util.MmkvManager.KEY_ANG_CONFIGS
 import kotlinx.coroutines.*
 import java.util.*
 

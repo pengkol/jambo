@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -16,14 +16,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.tbruyelle.rxpermissions.RxPermissions
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ActivitySubSettingBinding
-import com.gatcha.ang.databinding.ItemRecyclerUserAssetBinding
-import com.gatcha.ang.extension.toTrafficString
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ActivitySubSettingBinding
+import com.gandring.ang.databinding.ItemRecyclerUserAssetBinding
+import com.gandring.ang.extension.toTrafficString
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File

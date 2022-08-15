@@ -1,10 +1,10 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
 import android.view.KeyEvent
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.gatcha.ang.R
+import com.gandring.ang.R
 
 class WebViewActivity : BaseActivity() {
     private lateinit var webView: WebView

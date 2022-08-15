@@ -1,6 +1,6 @@
 import org.junit.Assert.*
 import org.junit.Test
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.util.Utils
 
 class UtilTest {
 

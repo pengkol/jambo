@@ -1,14 +1,14 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.activity.viewModels
 import androidx.preference.*
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.util.Utils
-import com.gatcha.ang.viewmodel.SettingsViewModel
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.util.Utils
+import com.gandring.ang.viewmodel.SettingsViewModel
 
 class SettingsActivity : BaseActivity() {
     private val settingsViewModel: SettingsViewModel by viewModels()

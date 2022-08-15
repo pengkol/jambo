@@ -1,4 +1,4 @@
-package com.gatcha.ang;
+package com.gandring.ang;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -22,13 +22,13 @@ import android.util.Log
 import android.util.Patterns
 import android.webkit.URLUtil
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.BuildConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.extension.toast
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.BuildConfig
+import com.gandring.ang.R
+import com.gandring.ang.extension.toast
 import java.net.*
-import com.gatcha.ang.service.V2RayServiceManager
+import com.gandring.ang.service.V2RayServiceManager
 import java.io.IOException
 
 object Utils {

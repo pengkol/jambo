@@ -1,4 +1,4 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
 import android.graphics.drawable.Drawable
 

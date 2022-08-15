@@ -1,10 +1,10 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.dto.ServerAffiliationInfo
-import com.gatcha.ang.dto.ServerConfig
-import com.gatcha.ang.dto.SubscriptionItem
+import com.gandring.ang.dto.ServerAffiliationInfo
+import com.gandring.ang.dto.ServerConfig
+import com.gandring.ang.dto.SubscriptionItem
 
 object MmkvManager {
     const val ID_MAIN = "MAIN"

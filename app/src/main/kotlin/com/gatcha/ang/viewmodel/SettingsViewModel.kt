@@ -1,4 +1,4 @@
-package com.gatcha.ang.viewmodel
+package com.gandring.ang.viewmodel
 
 import android.app.Application
 import android.content.SharedPreferences
@@ -6,8 +6,8 @@ import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.preference.PreferenceManager
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.util.MmkvManager
+import com.gandring.ang.AppConfig
+import com.gandring.ang.util.MmkvManager
 
 class SettingsViewModel(application: Application) : AndroidViewModel(application), SharedPreferences.OnSharedPreferenceChangeListener {
 

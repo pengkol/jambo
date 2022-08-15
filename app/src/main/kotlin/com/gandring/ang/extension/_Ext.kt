@@ -1,4 +1,4 @@
-package com.gatcha.ang.extension
+package com.gandring.ang.extension
 
 import android.content.Context
 import android.os.Build

@@ -1,11 +1,11 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.Manifest
 import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.gatcha.ang.dto.AppInfo
+import com.gandring.ang.dto.AppInfo
 import rx.Observable
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,18 +8,18 @@ import android.util.Log
 import androidx.preference.PreferenceManager
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_CONFIG
-import com.gatcha.ang.AppConfig.HTTPS_PROTOCOL
-import com.gatcha.ang.AppConfig.HTTP_PROTOCOL
-import com.gatcha.ang.R
-import com.gatcha.ang.dto.*
-import com.gatcha.ang.dto.V2rayConfig.Companion.DEFAULT_SECURITY
-import com.gatcha.ang.dto.V2rayConfig.Companion.TLS
-import com.gatcha.ang.util.MmkvManager.KEY_SELECTED_SERVER
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_CONFIG
+import com.gandring.ang.AppConfig.HTTPS_PROTOCOL
+import com.gandring.ang.AppConfig.HTTP_PROTOCOL
+import com.gandring.ang.R
+import com.gandring.ang.dto.*
+import com.gandring.ang.dto.V2rayConfig.Companion.DEFAULT_SECURITY
+import com.gandring.ang.dto.V2rayConfig.Companion.TLS
+import com.gandring.ang.util.MmkvManager.KEY_SELECTED_SERVER
 import java.net.URI
 import java.util.*
-import com.gatcha.ang.extension.idnHost
+import com.gandring.ang.extension.idnHost
 
 object AngConfigManager {
     private val mainStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_MAIN, MMKV.MULTI_PROCESS_MODE) }

@@ -1,4 +1,4 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

@@ -1,10 +1,10 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.service.V2RayTestService
+import com.gandring.ang.AppConfig
+import com.gandring.ang.service.V2RayTestService
 import java.io.Serializable
 
 

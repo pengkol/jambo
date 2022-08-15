@@ -1,4 +1,4 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
 data class ServerAffiliationInfo(var testDelayMillis: Long = 0L) {
     fun getTestDelayString(): String {

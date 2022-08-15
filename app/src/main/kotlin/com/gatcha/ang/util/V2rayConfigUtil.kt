@@ -1,17 +1,17 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.content.Context
 import android.text.TextUtils
 import android.util.Log
 import com.google.gson.*
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.dto.V2rayConfig
-import com.gatcha.ang.dto.EConfigType
-import com.gatcha.ang.dto.ERoutingMode
-import com.gatcha.ang.dto.V2rayConfig.Companion.DEFAULT_NETWORK
-import com.gatcha.ang.dto.V2rayConfig.Companion.HTTP
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.dto.V2rayConfig
+import com.gandring.ang.dto.EConfigType
+import com.gandring.ang.dto.ERoutingMode
+import com.gandring.ang.dto.V2rayConfig.Companion.DEFAULT_NETWORK
+import com.gandring.ang.dto.V2rayConfig.Companion.HTTP
 
 object V2rayConfigUtil {
     private val serverRawStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_SERVER_RAW, MMKV.MULTI_PROCESS_MODE) }

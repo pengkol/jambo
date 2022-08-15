@@ -1,4 +1,4 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
 data class AngConfig(
         var index: Int,

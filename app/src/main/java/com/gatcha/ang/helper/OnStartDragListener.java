@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.gatcha.ang.helper;
+package com.gandring.ang.helper;
 
 import androidx.recyclerview.widget.RecyclerView;
 

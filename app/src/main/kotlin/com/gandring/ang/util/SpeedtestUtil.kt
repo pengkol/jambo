@@ -1,12 +1,12 @@
-package com.gatcha.ang.util
+package com.gandring.ang.util
 
 import android.content.Context
 import android.os.SystemClock
 import android.text.TextUtils
 import android.util.Log
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.extension.responseLength
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.extension.responseLength
 import kotlinx.coroutines.isActive
 import libv2ray.Libv2ray
 import java.io.IOException

@@ -1,4 +1,4 @@
-package com.gatcha.ang.service
+package com.gandring.ang.service
 
 import android.annotation.TargetApi
 import android.content.BroadcastReceiver
@@ -9,10 +9,10 @@ import android.graphics.drawable.Icon
 import android.os.Build
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.util.MessageUtil
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.util.MessageUtil
+import com.gandring.ang.util.Utils
 import java.lang.ref.SoftReference
 
 @TargetApi(Build.VERSION_CODES.N)

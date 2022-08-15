@@ -1,4 +1,4 @@
-package com.gatcha.ang
+package com.gandring.ang
 
 import androidx.multidex.MultiDexApplication
 import androidx.preference.PreferenceManager

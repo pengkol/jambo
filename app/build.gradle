@@ -15,14 +15,14 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.gatcha.ang"
+        applicationId "com.gandring.ang"
         minSdkVersion 21
         targetSdkVersion Integer.parseInt("$targetSdkVer")
         multiDexEnabled true
         versionCode 472
         versionName "1.7.18-03"
 
-        setProperty("archivesBaseName", "GatchaNG-$versionName")
+        setProperty("archivesBaseName", "gandringNG-$versionName")
     }
 
     signingConfigs {

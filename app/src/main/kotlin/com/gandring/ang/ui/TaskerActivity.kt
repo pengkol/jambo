@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.app.Activity
 import android.os.Bundle
@@ -6,16 +6,16 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import java.util.ArrayList
-import com.gatcha.ang.R
+import com.gandring.ang.R
 import android.content.Intent
 import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
 import com.google.zxing.WriterException
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.databinding.ActivityTaskerBinding
-import com.gatcha.ang.util.MmkvManager
+import com.gandring.ang.AppConfig
+import com.gandring.ang.databinding.ActivityTaskerBinding
+import com.gandring.ang.util.MmkvManager
 
 class TaskerActivity : BaseActivity() {
     private lateinit var binding: ActivityTaskerBinding

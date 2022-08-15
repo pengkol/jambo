@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.content.Context
 import android.os.Build
@@ -6,9 +6,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import androidx.annotation.RequiresApi
-import com.gatcha.ang.util.MyContextWrapper
-import com.gatcha.ang.R
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.util.MyContextWrapper
+import com.gandring.ang.R
+import com.gandring.ang.util.Utils
 
 abstract class BaseActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {

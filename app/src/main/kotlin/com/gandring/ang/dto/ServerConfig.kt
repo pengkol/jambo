@@ -1,9 +1,9 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
-import com.gatcha.ang.AppConfig.TAG_AGENT
-import com.gatcha.ang.AppConfig.TAG_BLOCKED
-import com.gatcha.ang.AppConfig.TAG_DIRECT
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig.TAG_AGENT
+import com.gandring.ang.AppConfig.TAG_BLOCKED
+import com.gandring.ang.AppConfig.TAG_DIRECT
+import com.gandring.ang.util.Utils
 
 data class ServerConfig(
         val configVersion: Int = 3,

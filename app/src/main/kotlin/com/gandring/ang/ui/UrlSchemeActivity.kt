@@ -1,13 +1,13 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import com.google.zxing.WriterException
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ActivityLogcatBinding
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.AngConfigManager
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ActivityLogcatBinding
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.AngConfigManager
 
 class UrlSchemeActivity : BaseActivity() {
     private lateinit var binding: ActivityLogcatBinding

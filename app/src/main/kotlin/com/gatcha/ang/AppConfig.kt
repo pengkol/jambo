@@ -1,11 +1,11 @@
-package com.gatcha.ang
+package com.gandring.ang
 
 /**
  *
  * App Config Const
  */
 object AppConfig {
-    const val ANG_PACKAGE = "com.gatcha.ang"
+    const val ANG_PACKAGE = "com.gandring.ang"
     const val DIR_ASSETS = "assets"
 
     // legacy
@@ -44,9 +44,9 @@ object AppConfig {
     const val HTTP_PROTOCOL: String = "http://"
     const val HTTPS_PROTOCOL: String = "https://"
 
-    const val BROADCAST_ACTION_SERVICE = "com.gatcha.ang.action.service"
-    const val BROADCAST_ACTION_ACTIVITY = "com.gatcha.ang.action.activity"
-    const val BROADCAST_ACTION_WIDGET_CLICK = "com.gatcha.ang.action.widget.click"
+    const val BROADCAST_ACTION_SERVICE = "com.gandring.ang.action.service"
+    const val BROADCAST_ACTION_ACTIVITY = "com.gandring.ang.action.activity"
+    const val BROADCAST_ACTION_WIDGET_CLICK = "com.gandring.ang.action.widget.click"
 
     const val TASKER_EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE"
     const val TASKER_EXTRA_STRING_BLURB = "com.twofortyfouram.locale.intent.extra.BLURB"
@@ -61,7 +61,7 @@ object AppConfig {
     const val androidpackagenamelistUrl = "https://raw.githubusercontent.com/2dust/androidpackagenamelist/master/proxy.txt"
     const val v2rayCustomRoutingListUrl = "https://raw.githubusercontent.com/2dust/v2rayCustomRoutingList/master/"
     const val v2rayNGWikiMode = "https://github.com/2dust/v2rayNG/wiki/Mode"
-    const val telegramGroup = "https://t.me/trick_ngirit"
+    const val telegramGroup = "https://t.me/phreaker"
     const val geoUrl = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/";
 
     const val DNS_AGENT = "1.1.1.1"

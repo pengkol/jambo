@@ -1,4 +1,4 @@
-package com.gatcha.ang.dto
+package com.gandring.ang.dto
 
 enum class ERoutingMode(val value: String  ) {
     GLOBAL_PROXY("0"),

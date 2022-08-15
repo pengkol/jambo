@@ -1,4 +1,4 @@
-package com.gatcha.ang.receiver
+package com.gandring.ang.receiver
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,10 +8,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.widget.RemoteViews
-import com.gatcha.ang.R
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.service.V2RayServiceManager
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.R
+import com.gandring.ang.AppConfig
+import com.gandring.ang.service.V2RayServiceManager
+import com.gandring.ang.util.Utils
 
 class WidgetProvider : AppWidgetProvider() {
     /**

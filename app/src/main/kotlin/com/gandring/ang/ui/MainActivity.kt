@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.Manifest
 import android.content.*
@@ -8,11 +8,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.gatcha.ang.R
+import com.gandring.ang.R
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.KeyEvent
-import com.gatcha.ang.AppConfig
+import com.gandring.ang.AppConfig
 import android.content.res.ColorStateList
 import com.google.android.material.navigation.NavigationView
 import androidx.core.content.ContextCompat
@@ -26,18 +26,18 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.BuildConfig
-import com.gatcha.ang.databinding.ActivityMainBinding
-import com.gatcha.ang.dto.EConfigType
-import com.gatcha.ang.extension.toast
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.BuildConfig
+import com.gandring.ang.databinding.ActivityMainBinding
+import com.gandring.ang.dto.EConfigType
+import com.gandring.ang.extension.toast
 import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
 import java.util.concurrent.TimeUnit
-import com.gatcha.ang.helper.SimpleItemTouchHelperCallback
-import com.gatcha.ang.service.V2RayServiceManager
-import com.gatcha.ang.util.*
-import com.gatcha.ang.viewmodel.MainViewModel
+import com.gandring.ang.helper.SimpleItemTouchHelperCallback
+import com.gandring.ang.service.V2RayServiceManager
+import com.gandring.ang.util.*
+import com.gandring.ang.viewmodel.MainViewModel
 import kotlinx.coroutines.*
 import me.drakeet.support.toast.ToastCompat
 import java.io.File

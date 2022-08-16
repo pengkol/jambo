@@ -1,4 +1,4 @@
-package com.gatcha.ang.service
+package com.gandring.ang.service
 
 import android.app.Service
 import android.content.Context
@@ -11,12 +11,12 @@ import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.dto.ERoutingMode
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.MyContextWrapper
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.dto.ERoutingMode
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.MyContextWrapper
+import com.gandring.ang.util.Utils
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

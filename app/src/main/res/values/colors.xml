@@ -3,7 +3,7 @@
     <color name="colorPing">#009966</color>
     <color name="colorPingRed">#FF0099</color>
     <color name="colorSubscription">#247BA0</color>
-    <color name="colorSelected">#f2b23a</color>
+    <color name="colorSelected">#FF0000</color>
     <color name="colorUnselected">#999999</color>
     <color name="colorWhite">#CFD8DC</color>
     <color name="colorBlack">#212121</color>

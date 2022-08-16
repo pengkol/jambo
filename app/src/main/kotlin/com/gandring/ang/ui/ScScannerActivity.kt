@@ -1,13 +1,13 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.Manifest
 import android.content.*
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.gatcha.ang.R
-import com.gatcha.ang.util.AngConfigManager
+import com.gandring.ang.R
+import com.gandring.ang.util.AngConfigManager
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
-import com.gatcha.ang.extension.toast
+import com.gandring.ang.extension.toast
 
 class ScScannerActivity : BaseActivity() {
 

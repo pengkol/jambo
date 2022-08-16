@@ -1,11 +1,11 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
-import com.gatcha.ang.R
+import com.gandring.ang.R
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.databinding.ActivityRoutingSettingsBinding
+import com.gandring.ang.AppConfig
+import com.gandring.ang.databinding.ActivityRoutingSettingsBinding
 
 class RoutingSettingsActivity : BaseActivity() {
     private lateinit var binding: ActivityRoutingSettingsBinding

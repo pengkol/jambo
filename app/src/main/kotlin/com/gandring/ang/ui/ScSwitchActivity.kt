@@ -1,9 +1,9 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
-import com.gatcha.ang.R
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.R
+import com.gandring.ang.util.Utils
 import android.os.Bundle
-import com.gatcha.ang.service.V2RayServiceManager
+import com.gandring.ang.service.V2RayServiceManager
 
 class ScSwitchActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

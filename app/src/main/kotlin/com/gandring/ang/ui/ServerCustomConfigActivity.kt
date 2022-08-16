@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,14 +9,14 @@ import androidx.appcompat.app.AlertDialog
 import com.blacksquircle.ui.language.json.JsonLanguage
 import com.google.gson.*
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ActivityServerCustomConfigBinding
-import com.gatcha.ang.dto.EConfigType
-import com.gatcha.ang.dto.ServerConfig
-import com.gatcha.ang.dto.V2rayConfig
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ActivityServerCustomConfigBinding
+import com.gandring.ang.dto.EConfigType
+import com.gandring.ang.dto.ServerConfig
+import com.gandring.ang.dto.V2rayConfig
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.Utils
 import me.drakeet.support.toast.ToastCompat
 
 class ServerCustomConfigActivity : BaseActivity() {

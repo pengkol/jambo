@@ -1,14 +1,14 @@
-package com.gatcha.ang.service
+package com.gandring.ang.service
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.gatcha.ang.AppConfig.MSG_MEASURE_CONFIG
-import com.gatcha.ang.AppConfig.MSG_MEASURE_CONFIG_CANCEL
-import com.gatcha.ang.AppConfig.MSG_MEASURE_CONFIG_SUCCESS
-import com.gatcha.ang.util.MessageUtil
-import com.gatcha.ang.util.SpeedtestUtil
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig.MSG_MEASURE_CONFIG
+import com.gandring.ang.AppConfig.MSG_MEASURE_CONFIG_CANCEL
+import com.gandring.ang.AppConfig.MSG_MEASURE_CONFIG_SUCCESS
+import com.gandring.ang.util.MessageUtil
+import com.gandring.ang.util.SpeedtestUtil
+import com.gandring.ang.util.Utils
 import go.Seq
 import kotlinx.coroutines.*
 import libv2ray.Libv2ray

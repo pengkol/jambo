@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.Manifest
 import android.app.Activity
@@ -12,9 +12,9 @@ import android.view.MenuItem
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.zxing.BarcodeFormat
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.gatcha.ang.R
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.QRCodeDecoder
+import com.gandring.ang.R
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.QRCodeDecoder
 
 class ScannerActivity : BaseActivity(), ZXingScannerView.ResultHandler {
 

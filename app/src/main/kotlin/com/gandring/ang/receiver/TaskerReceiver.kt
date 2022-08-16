@@ -1,4 +1,4 @@
-package com.gatcha.ang.receiver
+package com.gandring.ang.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,11 +6,11 @@ import android.content.Intent
 import android.text.TextUtils
 import com.google.zxing.WriterException
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.service.V2RayServiceManager
-import com.gatcha.ang.util.MmkvManager
+import com.gandring.ang.AppConfig
+import com.gandring.ang.service.V2RayServiceManager
+import com.gandring.ang.util.MmkvManager
 
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.util.Utils
 
 class TaskerReceiver : BroadcastReceiver() {
     private val mainStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_MAIN, MMKV.MULTI_PROCESS_MODE) }

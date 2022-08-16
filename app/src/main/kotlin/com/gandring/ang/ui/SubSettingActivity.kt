@@ -1,14 +1,14 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.content.Intent
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
-import com.gatcha.ang.R
+import com.gandring.ang.R
 import android.os.Bundle
-import com.gatcha.ang.databinding.ActivitySubSettingBinding
-import com.gatcha.ang.dto.SubscriptionItem
-import com.gatcha.ang.util.MmkvManager
+import com.gandring.ang.databinding.ActivitySubSettingBinding
+import com.gandring.ang.dto.SubscriptionItem
+import com.gandring.ang.util.MmkvManager
 
 class SubSettingActivity : BaseActivity() {
     private lateinit var binding: ActivitySubSettingBinding

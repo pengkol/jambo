@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,20 +8,20 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.PREF_ALLOW_INSECURE
-import com.gatcha.ang.R
-import com.gatcha.ang.dto.EConfigType
-import com.gatcha.ang.dto.ServerConfig
-import com.gatcha.ang.dto.V2rayConfig
-import com.gatcha.ang.dto.V2rayConfig.Companion.DEFAULT_FLOW
-import com.gatcha.ang.dto.V2rayConfig.Companion.DEFAULT_PORT
-import com.gatcha.ang.dto.V2rayConfig.Companion.XTLS
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.MmkvManager.ID_MAIN
-import com.gatcha.ang.util.MmkvManager.KEY_SELECTED_SERVER
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.PREF_ALLOW_INSECURE
+import com.gandring.ang.R
+import com.gandring.ang.dto.EConfigType
+import com.gandring.ang.dto.ServerConfig
+import com.gandring.ang.dto.V2rayConfig
+import com.gandring.ang.dto.V2rayConfig.Companion.DEFAULT_FLOW
+import com.gandring.ang.dto.V2rayConfig.Companion.DEFAULT_PORT
+import com.gandring.ang.dto.V2rayConfig.Companion.XTLS
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.MmkvManager.ID_MAIN
+import com.gandring.ang.util.MmkvManager.KEY_SELECTED_SERVER
+import com.gandring.ang.util.Utils
 
 class ServerActivity : BaseActivity() {
 

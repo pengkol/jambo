@@ -1,4 +1,4 @@
-package com.gatcha.ang.service
+package com.gandring.ang.service
 
 import android.app.Service
 import android.content.Context
@@ -6,8 +6,8 @@ import android.content.Intent
 import android.os.Build
 import android.os.IBinder
 import androidx.annotation.RequiresApi
-import com.gatcha.ang.util.MyContextWrapper
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.util.MyContextWrapper
+import com.gandring.ang.util.Utils
 import java.lang.ref.SoftReference
 
 class V2RayProxyOnlyService : Service(), ServiceControl {

@@ -1,12 +1,12 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ItemRecyclerBypassListBinding
-import com.gatcha.ang.dto.AppInfo
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ItemRecyclerBypassListBinding
+import com.gandring.ang.dto.AppInfo
 import java.util.*
 
 class PerAppProxyAdapter(val activity: BaseActivity, val apps: List<AppInfo>, blacklist: MutableSet<String>?) :

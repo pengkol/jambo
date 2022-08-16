@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -7,12 +7,12 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ActivitySubEditBinding
-import com.gatcha.ang.dto.SubscriptionItem
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ActivitySubEditBinding
+import com.gandring.ang.dto.SubscriptionItem
+import com.gandring.ang.extension.toast
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.Utils
 
 class SubEditActivity : BaseActivity() {
     private lateinit var binding: ActivitySubEditBinding

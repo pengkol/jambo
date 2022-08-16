@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -11,15 +11,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ActivityBypassListBinding
-import com.gatcha.ang.dto.AppInfo
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.extension.v2RayApplication
-import com.gatcha.ang.util.AppManagerUtil
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ActivityBypassListBinding
+import com.gandring.ang.dto.AppInfo
+import com.gandring.ang.extension.toast
+import com.gandring.ang.extension.v2RayApplication
+import com.gandring.ang.util.AppManagerUtil
+import com.gandring.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import rx.android.schedulers.AndroidSchedulers

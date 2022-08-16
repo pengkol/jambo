@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.content.Intent
 import android.graphics.Color
@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.ViewGroup
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.ItemRecyclerSubSettingBinding
-import com.gatcha.ang.util.MmkvManager
+import com.gandring.ang.R
+import com.gandring.ang.databinding.ItemRecyclerSubSettingBinding
+import com.gandring.ang.util.MmkvManager
 
 class SubSettingRecyclerAdapter(val activity: SubSettingActivity) : RecyclerView.Adapter<SubSettingRecyclerAdapter.MainViewHolder>() {
 

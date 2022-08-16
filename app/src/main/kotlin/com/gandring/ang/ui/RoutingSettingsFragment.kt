@@ -1,4 +1,4 @@
-package com.gatcha.ang.ui
+package com.gandring.ang.ui
 
 import android.Manifest
 import android.app.Activity.RESULT_OK
@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.PreferenceManager
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.R
-import com.gatcha.ang.databinding.FragmentRoutingSettingsBinding
-import com.gatcha.ang.extension.toast
-import com.gatcha.ang.extension.v2RayApplication
-import com.gatcha.ang.util.Utils
+import com.gandring.ang.AppConfig
+import com.gandring.ang.R
+import com.gandring.ang.databinding.FragmentRoutingSettingsBinding
+import com.gandring.ang.extension.toast
+import com.gandring.ang.extension.v2RayApplication
+import com.gandring.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

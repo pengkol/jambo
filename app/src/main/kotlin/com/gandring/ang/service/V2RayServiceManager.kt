@@ -1,4 +1,4 @@
-package com.gatcha.ang.service
+package com.gandring.ang.service
 
 import android.app.*
 import android.content.BroadcastReceiver
@@ -11,18 +11,18 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.tencent.mmkv.MMKV
-import com.gatcha.ang.AppConfig
-import com.gatcha.ang.AppConfig.ANG_PACKAGE
-import com.gatcha.ang.AppConfig.TAG_DIRECT
-import com.gatcha.ang.R
-import com.gatcha.ang.dto.ServerConfig
-import com.gatcha.ang.extension.toSpeedString
-import com.gatcha.ang.extension.toast
+import com.gandring.ang.AppConfig
+import com.gandring.ang.AppConfig.ANG_PACKAGE
+import com.gandring.ang.AppConfig.TAG_DIRECT
+import com.gandring.ang.R
+import com.gandring.ang.dto.ServerConfig
+import com.gandring.ang.extension.toSpeedString
+import com.gandring.ang.extension.toast
 import com.gatcha.ang.ui.MainActivity
-import com.gatcha.ang.util.MessageUtil
-import com.gatcha.ang.util.MmkvManager
-import com.gatcha.ang.util.Utils
-import com.gatcha.ang.util.V2rayConfigUtil
+import com.gandring.ang.util.MessageUtil
+import com.gandring.ang.util.MmkvManager
+import com.gandring.ang.util.Utils
+import com.gandring.ang.util.V2rayConfigUtil
 import go.Seq
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
